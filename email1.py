@@ -1,8 +1,8 @@
 import smtplib
 
-sender_email = 'testm5062@gmail.com'
+sender_email = input(str("Enter Your Email"))
 rec_email = input(str("Enter The Person Email"))
-password = 'nilandasuper'
+password = 'input(str("Enter Your Password"))'
 message = input(str("Enter a message"))
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
